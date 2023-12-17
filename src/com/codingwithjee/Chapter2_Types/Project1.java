@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Project1 {
     public static void main(String[] args) {
 
-                    /* Principal*/
+        /* Principal*/
         Scanner scanner = new Scanner(System.in);
         System.out.print("Principal : ");
         Long principal = scanner.nextLong(); // stored principal...
@@ -15,13 +15,13 @@ public class Project1 {
                 /* Annual Interest Rate */
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("Annual Interest Rate : ");
-        float annualInterestRate1 = scanner.nextFloat(); // stored montlyInterestRate...
+        float annualInterestRate1 = scanner1.nextFloat(); // stored montlyInterestRate...
         float montlyInterestRate = ((annualInterestRate1) / 100)/12; // stored it into decimals
 
         /* Period (Years) */
-        Scanner scanner3 = new Scanner(System.in);
+        Scanner scanner2 = new Scanner(System.in);
         System.out.print("Period (Years) : ");
-        byte period = scanner.nextByte(); // stored value of Period...
+        byte period = scanner2.nextByte(); // stored value of Period...
         int months = period * 12; // calculated into months
 
 //  have all the integers keyed in...! ... Now need to calculate
