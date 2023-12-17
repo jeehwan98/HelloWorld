@@ -13,9 +13,9 @@ public class Part3 {
         numbers[0] = 1; //
         numbers[1] = 2;
 //  numbers[10] = 3; // crashed... because there is no 10
-        System.out.println(numbers); // weird string... JAva returns the string's address in memory.
+        System.out.println(numbers); // weird string... Java returns the string's address in memory.
 //  We have a class called array!
-        System.out.println(Arrays.toString(numbers)); //others are set to 0 by default because we're dealing with integar array, if we had boolean, all items would be false
+        System.out.println(Arrays.toString(numbers)); //others are set to 0 by default because we're dealing with integer array, if we had boolean, all items would be false
 
         int[] numbers1 = {2, 3, 5, 1, 4};
         Arrays.sort(numbers1); // sort the numbers

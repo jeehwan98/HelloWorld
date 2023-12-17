@@ -8,19 +8,20 @@ public class Part5 {
                                             /* [Formatting numbers] */
 
 //  1234567 > we want to add a $1234567 and separate every 3 digits with a comma
-//        NumberFormat currency = new NumberFormat() // we cannot create NumberFormat because it's an abstract.
+//  NumberFormat currency = new NumberFormat() // we cannot create NumberFormat because it's an abstract.
         NumberFormat currency = NumberFormat.getCurrencyInstance();
         String result = currency.format(1234567.891); // this method will return a string representation of this number
-        System.out.println(result);
+        System.out.println("convert the result into currency + , : " + result);
     // used for handling text, dates, numbers and so on.
 
         NumberFormat percentage = NumberFormat.getPercentInstance();
         String result1 = percentage.format(0.10);
-        System.out.println(result1);
+        System.out.println("converting the result into % : " + result1);
 
                                             /* [Reading Input] */
 //  how to rate input from the user
         Scanner scanner = new Scanner(System.in); // in the parenthesis (), we need to specify where we're going to read the data from.
+//  Scanner helps us to read things
 //  to work from a terminal, we type "system.in"... similar to input() in Python
         System.out.print("Age: ");
         byte age = scanner.nextByte(); // this method can only parse byte values... to get a floating number, we need to add nextFloat or nextDouble.

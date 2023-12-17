@@ -6,7 +6,7 @@ public class Part2 {
                                                   /* [Strings] */
 
 //  storing the parameter into String
-        String message = "Hello World" + "!!   "; // Strings are reference types in Java
+        String message = "Hello World" + "!!"; // Strings are reference types in Java
         message.endsWith("");
         System.out.println(message.endsWith("!!")); // returns a boolean value
         System.out.println(message.startsWith("!!"));

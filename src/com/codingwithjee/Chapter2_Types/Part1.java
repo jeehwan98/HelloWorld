@@ -8,7 +8,7 @@ public class Part1 {
 * */
     public static void main(String[] args) {
         int age = 30, temperature = 20; // int = type of the variable, age = identifier (identify our variable), "=" = assignment operator
-        // we can decalre multiple variables in the same line using a "," ... 추천하지 않는다!
+        // we can decla®re multiple variables in the same line using a "," ... 추천하지 않는다!
         // initializing a given value
         age = 35; // change the value of age to 35
         System.out.println("age : " + age);
@@ -62,9 +62,9 @@ public class Part1 {
         System.out.println(time);
 
         byte x = 1;
-        byte y = x;
+        byte y = x+=1;
         x = 2;
-        System.out.println(y); // y is not affected because x & y are completely independent of each other
+        System.out.println("y : " + y); // y is not affected because x & y are completely independent of each other
 
         Point point1 = new Point(1, 1); // Point class
         Point point2 = point1; // store a reference to an object, somewhere in the memory
