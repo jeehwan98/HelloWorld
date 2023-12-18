@@ -1,11 +1,9 @@
 package com.codingwithjee.Chapter2_Types;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class Project1 {
-    public static void main(String[] args) {
+    public void MortgageCalculatorProject1() {
 
         /* Principal*/
         Scanner scanner = new Scanner(System.in);
